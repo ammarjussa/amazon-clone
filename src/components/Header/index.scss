@@ -1,0 +1,75 @@
+$HEADER_HEIGHT: 60px;
+$HEADER_COLOR: #131921;
+$SEARCH_COLOR: #cd9042;
+$TEXT_COLOR: white;
+
+.header {
+  height: $HEADER_HEIGHT;
+  display: flex;
+  align-items: center;
+  background-color: $HEADER_COLOR;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  img {
+    width: 170px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 10px;
+  }
+
+  .search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+
+    input {
+      height: 12px;
+      padding: 10px;
+      border: none;
+      width: 100%;
+    }
+
+    .searchIcon {
+      padding: 5px;
+      height: 22px;
+      background-color: $SEARCH_COLOR;
+    }
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    .options {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: white;
+
+      .one {
+        font-size: 10px;
+      }
+
+      .two {
+        font-size: 13px;
+        font-weight: 800;
+      }
+    }
+
+    .basket {
+      display: flex;
+      align-items: center;
+      color: white;
+
+      span {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+    }
+  }
+}
