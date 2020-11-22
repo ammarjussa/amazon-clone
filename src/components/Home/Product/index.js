@@ -2,23 +2,24 @@ import { Button } from '@material-ui/core';
 import React from 'react';
 import './index.scss';
 
-const Product = () => {
+const Product = ({ title, image, price, rating }) => {
   return (
     <div className="product">
       <div className="info">
-        <p>The lean startup</p>
+        <p>{title}</p>
         <p className="price">
           <small>$</small>
-          <strong>19.99</strong>
+          <strong>{price}</strong>
         </p>
         <div className="rating">
-          <p>⭐</p>
-          <p>⭐</p>
-          <p>⭐</p>
-          <p>⭐</p>
+          {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <p>⭐</p>
+            ))}
         </div>
       </div>
-      <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" />
+      <img src={image} />
       <button>Add to Basket</button>
     </div>
   );
