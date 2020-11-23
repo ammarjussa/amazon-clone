@@ -21,7 +21,7 @@ const SubTotal = () => {
         renderText={(value) => (
           <>
             <p>
-              Subtotal (0 items): <strong>{value}</strong>
+              Subtotal ({basket.length} items): <strong>{value}</strong>
             </p>
             <small>
               <input type="checkbox" />
