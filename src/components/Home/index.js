@@ -15,19 +15,39 @@ const Home = () => {
       <div className="row">
         <Product
           title="The lean startup is my lean startup bla bla"
-          price="19.99"
-          rating={4}
+          price={19.99}
+          rating={3}
           image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg"
         />
-        <Product />
+        <Product
+          title="The lean startup is my lean startup bla bla"
+          price={23.65}
+          rating={5}
+        />
       </div>
       <div className="row">
-        <Product />
-        <Product />
-        <Product />
+        <Product
+          title="The lean startup is my lean startup bla bla"
+          price={6.99}
+          rating={2}
+        />
+        <Product
+          title="The lean startup is my lean startup bla bla"
+          price={34.7}
+          rating={4}
+        />
+        <Product
+          title="The lean startup is my lean startup bla bla"
+          price={23.6}
+          rating={4}
+        />
       </div>
       <div className="row">
-        <Product />
+        <Product
+          title="The lean startup is my lean startup bla bla"
+          price={9.99}
+          rating={3}
+        />
       </div>
     </div>
   );
