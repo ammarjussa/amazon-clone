@@ -18,10 +18,12 @@ const Header = () => {
       </div>
 
       <div className="nav">
-        <div className="options">
-          <span className="one">Hello, Ammar</span>
-          <span className="two">SignIn</span>
-        </div>
+        <Link to="/login">
+          <div className="options">
+            <span className="one">Hello, Ammar</span>
+            <span className="two">SignIn</span>
+          </div>
+        </Link>
         <div className="options">
           <span className="one">Returns</span>
           <span className="two">& Orders</span>

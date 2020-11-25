@@ -18,7 +18,6 @@ const CheckoutProduct = ({ id, image, title, price, rating }) => {
       <div className="info">
         <p className="title">{title}</p>
         <p>
-          {id}
           <small>$</small>
           <strong>{price}</strong>
         </p>

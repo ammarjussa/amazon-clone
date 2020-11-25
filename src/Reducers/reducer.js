@@ -11,10 +11,20 @@ export const reducer = (state, action) => {
       };
 
     case 'REMOVE_FROM_BASKET':
-      console.log(action.item);
+      const index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+
+      let newBasket = [...state.basket];
+      if (index >= 0) {
+        newBasket.splice(index, 1);
+      } else {
+        console.warn('Cannot remove product');
+      }
+
       return {
         ...state,
-        basket: state.basket.filter((item) => item.id !== action.id),
+        basket: newBasket,
       };
 
     default:
