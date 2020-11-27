@@ -15,7 +15,7 @@ const Checkout = () => {
         <h2>My Shopping Basket</h2>
         {basket?.map((item) => (
           <FlipMove typeName={null} duration={500} delay={0}>
-            <CheckoutProduct key={item.id + item.price} {...item} />
+            <CheckoutProduct key={item.id} {...item} />
           </FlipMove>
         ))}
       </div>
