@@ -4,7 +4,7 @@
 
 # Amazon_Clone
 
-![Amazon Demo](https://github.com/ammarjussa/Whatsapp_Clone/blob/master/amazon_demo.gif)
+![Amazon Demo](https://github.com/ammarjussa/amazon-clone/blob/master/amazon_demo.gif)
 
 ## Run Project
 
