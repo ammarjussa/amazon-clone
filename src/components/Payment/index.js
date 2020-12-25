@@ -56,8 +56,10 @@ const Payment = () => {
             </div>
             <StripeCheckout
               token={(token) => {
-                alert('Just a mock of payment. Payment not actually done');
                 history.push('/');
+                dispatch({
+                  type: 'CLEAR_BASKET',
+                });
               }}
               stripeKey="pk_test_51HsQDhBfjYOY3P1kIWikOScCJSyBjW6wBXnzIDSLdNNdMoMcqgIYUTtnRpFfmW9CRhTtbkojJcX6Bxz557PqH0sa0091MF4w5i"
             />
