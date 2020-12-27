@@ -1,3 +1,4 @@
+
 [![HitCount](http://hits.dwyl.com/ammarjussa/amazon-clone.svg)](http://hits.dwyl.com/ammarjussa/amazon-clone) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ammarjussa/amazon-clone) ![GitHub last commit](https://img.shields.io/github/last-commit/ammarjussa/amazon-clone) ![GitHub language count](https://img.shields.io/github/languages/count/ammarjussa/amazon-clone)
 
 # Amazon Clone
