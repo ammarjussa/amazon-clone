@@ -18,10 +18,7 @@ You will also see any lint errors in the console.
 
 ## Description
 
-- This is an amazon clone with login/signup feature implemented using Firebase.
-- User would be able to view the listed products (Hardcoded for now) and put it into the shopping cart.
-- User can delete the items in the cart.
-- User can checkout and buy those items using stripe payment. 
+This is an amazon clone with a login/signup feature implemented using Firebase. The user would be able to view the listed products and put them into the shopping cart. Users can delete the items in the cart. Users can then checkout and buy those items using stripe payment.
 
 ## Tools Used
 
